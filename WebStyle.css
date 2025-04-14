@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#guessRows {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4cafad;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.correct {
+    background-color: #4cafad;
+    color: white;
+}
+
+.present {
+    background-color: #dec77b;
+    color: white;
+}
+
+.absent {
+    background-color: #787c7e; 
+    color: white;
+}

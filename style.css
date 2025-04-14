@@ -1,0 +1,67 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 80px;
+    font-size: 15px;
+    background-color: #6C2A2A;
+    color: white;
+    text-align: center;
+    text-align: right;
+    padding: 15px 50px 0 0;
+    border-bottom: solid 1px #555555;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.mainbody {
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    font-size: 15px;
+    color: black;
+    border-top: solid 1px #555555;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 1000;
+    background-color: azure;
+}
+
+/*
+
+The site must be hosted online (e.g., via GitHub pages).
+https://pages.github.com
+
+A small web app created in collaboration with AI: 
+Be creative. Here are some examples of what other students have done. Keep in mind that the first three are fairly basic. To merit full credit on an app like one of these first three would require you to creatively contribute (either in style or function) to what the AI comes up with to go beyond a basic app.
+Riddle generator; Joke generator; Number guessing game; Snake game; Wordle clone
+Try to keep the code for this app in a single page (e.g., styles, HTML, and scripts all on one page).
+This page should be accessible via a link from the scratch page
